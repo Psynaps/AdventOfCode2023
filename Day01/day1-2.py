@@ -7,9 +7,7 @@ with open("input.txt", "r") as f:
 
 # digitsString = ["|" + digit for digit in digits]
 sum = 0
-for i in range(len(lines)):
-    # Match with regex all digits using findall
-    line = lines[i]
+for line in lines:
     t1 = t2 = None
     for j in range(len(line)):
         for num, d in enumerate(digits):
