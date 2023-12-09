@@ -50,7 +50,7 @@ def compare_hands(hand1, hand2):
 
     hand1_card_counts.sort(reverse=True)
     hand2_card_counts.sort(reverse=True)
-    # add jokers to max card
+    # add jokers to hands most commonly occuring card. Full house doesn't have to be considered because best strategy of using jokers is still to use them on the most common card
     hand1_card_counts[0] += num_jokers_hand1
     hand2_card_counts[0] += num_jokers_hand2
     if hand1_card_counts[0] > hand2_card_counts[0]:
