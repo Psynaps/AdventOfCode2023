@@ -29,7 +29,7 @@ def convertHand(hand):
 # print(h1, h2)
 
 
-# Function which takes in 2 hand arrays and returns 1 if hand1 wins, -1 if hand2 wins, and 0 if tie
+# Function which takes in 2 hand arrays and returns 1 if hand1 wins, -1 if hand2 wins, and 0 if tie (can't occur)
 def compare_hands(hand1, hand2):
     # Check for hand type
     # This has extra indices and is missing 1 index, but it doesn't matter
